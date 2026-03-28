@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Security: Content-Security-Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; script-src 'self';">
+    <!-- Security: Referrer-Policy -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>かりんラーメンふふ丸 - ポップでキュートなマジカルラーメン♡</title>
     <meta name="description" content="美味しいスイーツラーメンでふふっと笑顔になる魔法をお届けする「かりんラーメンふふ丸」。">
     <!-- Google Fonts -->
@@ -125,9 +129,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-sns">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
             </div>
             <p class="copyright">&copy; 2026 かりんラーメンふふ丸</p>
         </div>
