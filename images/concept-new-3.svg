@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#FFD166" />
+  <circle cx="200" cy="200" r="180" fill="#5EE6C9" />
+  <text x="50%" y="55%" font-size="200" text-anchor="middle" dominant-baseline="middle">🍨</text>
+  <text x="30%" y="25%" font-size="50" text-anchor="middle" dominant-baseline="middle">🍪</text>
+  <text x="75%" y="75%" font-size="60" text-anchor="middle" dominant-baseline="middle">🍓</text>
+  <text x="80%" y="25%" font-size="50" text-anchor="middle" dominant-baseline="middle">🍭</text>
+  <text x="25%" y="80%" font-size="40" text-anchor="middle" dominant-baseline="middle">🍒</text>
+</svg>
